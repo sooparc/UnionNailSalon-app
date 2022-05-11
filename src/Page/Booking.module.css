@@ -95,4 +95,8 @@ select:focus {
   .modalContainer {
     width: 90%;
   }
+
+  .input {
+    width: 60%;
+  }
 }

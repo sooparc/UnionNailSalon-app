@@ -257,13 +257,12 @@ ul {
   }
 
   .thirdPage {
-    height: 140vh;
+    height: 120vh;
+    background-color: #fff;
   }
 
   .thirdTitle {
     font-size: 30px;
-    padding-top: 80px;
-    padding-bottom: 30px;
   }
 
   .thirdLeftContent {
@@ -279,13 +278,18 @@ ul {
   }
 
   .priceListTitle {
-    font-size: 14px;
+    font-size: 13px;
+  }
+
+  .nailList {
+    font-size: 12px;
   }
 
   .nailImages {
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 80px;
   }
 
   .nailImg {
@@ -294,12 +298,14 @@ ul {
   }
 
   .fourthContainer {
-    padding-top: 15vh;
+    padding-top: 10vh;
   }
 
   .fourthPage {
     height: 120vh;
+    background-image: none;
   }
+
   .contactCard {
     width: 80%;
     margin-left: auto;
