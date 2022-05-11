@@ -1,0 +1,325 @@
+.container {
+  background-image: url("../Assets/backgroundImage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 50px;
+  color: #fff;
+  border: 2px solid #bcc4bd;
+  padding: 15px 50px;
+  box-shadow: 0 0 5px 5px #bcc4bd;
+  letter-spacing: 2px;
+}
+
+.arrowBtn {
+  position: absolute;
+  bottom: 0%;
+  margin-bottom: 50px;
+  color: #dcece3;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.arrowBtn:hover {
+  color: #fff;
+  transition: 0.3s;
+}
+
+/* Second Page */
+
+.secondPage {
+  height: 100vh;
+  padding-top: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.secondTitle {
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  font-family: "PT Serif", serif;
+  font-style: italic;
+}
+
+.secondContent {
+  color: #858585;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.card {
+  width: 300px;
+  margin-top: 50px;
+  box-shadow: 0 10px 10px #eeeeee;
+}
+
+.personImg {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.icon {
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #000;
+}
+
+.icon:hover {
+  color: #ccc;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* Third Page */
+
+.thirdPage {
+  height: 100vh;
+  background-color: #fff6f6;
+}
+
+.thirdTitle {
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  padding-top: 30px;
+}
+
+.thirdLeftContent {
+  width: 50%;
+  float: left;
+}
+
+.thirdLeftTitle {
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.priceListTitle {
+  font-size: 18px;
+  letter-spacing: 2px;
+  background-color: #f3babb;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nailList {
+  line-height: 2;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.thirdRightContent {
+  width: 50%;
+  float: right;
+}
+
+.nailImages {
+  margin-top: 5px;
+  margin-right: 30px;
+}
+
+.nailImg {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.nailImg:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+/* Fourth Page */
+
+.fourthPage {
+  height: 100vh;
+  background-image: url("../Assets/backgroundPhoto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.fourthContainer {
+  padding-top: 30vh;
+}
+
+.contactCard {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.contactTitle {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+
+.contactInfo {
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+}
+
+.contactIcon {
+  font-size: 30px;
+  color: #b37474;
+}
+
+.contactContent {
+  margin-top: 5px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #b37474;
+}
+
+.contactInformation {
+  margin-top: 5px;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.arrowUpIcon {
+  font-size: 30px;
+  color: #858585;
+  position: absolute;
+  margin-top: 160px;
+}
+
+.arrowUpIcon:hover {
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 30px;
+    padding: 10px 20px;
+  }
+
+  .secondPage {
+    height: 100%;
+    margin-bottom: 80px;
+  }
+
+  .secondTitle {
+    font-size: 30px;
+  }
+
+  .secondContent {
+    font-size: 10px;
+  }
+
+  .card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  .cardTitle {
+    margin-top: 10px;
+  }
+
+  .cardContent {
+    font-size: 14px;
+  }
+
+  .thirdPage {
+    height: 140vh;
+  }
+
+  .thirdTitle {
+    font-size: 30px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+  }
+
+  .thirdLeftContent {
+    width: 100%;
+  }
+
+  .thirdRightContent {
+    width: 100%;
+  }
+
+  .thirdLeftTitle {
+    font-size: 20px;
+  }
+
+  .priceListTitle {
+    font-size: 14px;
+  }
+
+  .nailImages {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nailImg {
+    width: 100px;
+    height: 100px;
+  }
+
+  .fourthContainer {
+    padding-top: 15vh;
+  }
+
+  .fourthPage {
+    height: 120vh;
+  }
+  .contactCard {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0px;
+  }
+
+  .contactInfo {
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 40px;
+  }
+
+  .contactInformation {
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+
+  .arrowUpIcon {
+    margin-top: 80px;
+  }
+}

@@ -1,0 +1,98 @@
+.body {
+  background-image: url("../Assets/bookingBackground.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.containerWrap {
+  padding-top: 10vh;
+}
+
+.title {
+  font-size: 30px;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 30px;
+  margin-bottom: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+select:focus {
+  outline: none;
+}
+
+.continueBtn {
+  margin-top: 30px;
+  padding: 8px 30px;
+  border-radius: 5px;
+  background-color: #091e4f;
+  color: #fff;
+  border: 1px solid #091e4f;
+}
+
+.modal {
+  margin-top: 15vh;
+}
+
+.modalTitle {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.modalContainer {
+  border: 1px solid #ebf5f8;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ebf5f8;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .containerWrap {
+    padding-top: 15vh;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .modalContainer {
+    width: 90%;
+  }
+}

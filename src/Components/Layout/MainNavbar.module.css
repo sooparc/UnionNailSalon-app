@@ -1,0 +1,20 @@
+.navbar {
+  padding: 20px 30px;
+}
+
+.title {
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbarLink {
+  color: #000;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.navbarLink:hover {
+  color: #000;
+}
