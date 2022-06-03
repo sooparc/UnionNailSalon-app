@@ -43,10 +43,12 @@
 
 input:focus {
   outline: none;
+  color: #000;
 }
 
 select:focus {
   outline: none;
+  color: #000;
 }
 
 .continueBtn {

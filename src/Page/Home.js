@@ -2,25 +2,25 @@ import React, { useState, useRef } from "react";
 import classes from "../Page/Home.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faArrowDownLong,
+  faChevronDown,
   faEnvelope,
   faPhone,
   faMobileScreenButton,
   faPersonWalking,
-  faArrowTurnUp,
+  faChevronUp,
 } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { Card, Popover, Button, Overlay } from "react-bootstrap";
 import workersData from "../Data/workersData";
 
 const Home = () => {
-  const arrowIcon = <FontAwesomeIcon icon={faArrowDownLong} />;
+  const arrowIcon = <FontAwesomeIcon icon={faChevronDown} />;
   const instagramIcon = <FontAwesomeIcon icon={faInstagram} />;
   const emailIcon = <FontAwesomeIcon icon={faEnvelope} />;
   const phoneIcon = <FontAwesomeIcon icon={faPhone} />;
   const mobileIcon = <FontAwesomeIcon icon={faMobileScreenButton} />;
   const walkinIcon = <FontAwesomeIcon icon={faPersonWalking} />;
-  const arrowUpIcon = <FontAwesomeIcon icon={faArrowTurnUp} />;
+  const arrowUpIcon = <FontAwesomeIcon icon={faChevronUp} />;
 
   const [show, setShow] = useState(false);
   const [target, setTarget] = useState(null);
